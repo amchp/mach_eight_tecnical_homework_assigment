@@ -3,7 +3,7 @@ In the solution first I read the argument from the command line. Then, I use the
 # Running the program
 Run the command
 ```
-python3 app.py input_value
+python3 app.py [input_value]
 ```
 
 # Testing the program
