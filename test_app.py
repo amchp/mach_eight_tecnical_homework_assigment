@@ -6,5 +6,5 @@ def test_download_json():
     assert download_json() == player_list
 
 def test_search_heights():
-    assert search_heights(139, player_list) == "-Brevin Knight         Nate Robinson\n-Nate Robinson         Mike Wilks"
+    assert search_heights(139, player_list) == "-Brevin Knight                 Nate Robinson\n-Nate Robinson                 Mike Wilks"
     assert search_heights(1000, player_list) == "No matches found"
