@@ -9,5 +9,5 @@ python3 app.py input_value
 # Testing the program
 You will have to install pytest and run this command
 ```
-python3 pytest
+pytest
 ```
